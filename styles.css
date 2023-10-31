@@ -1,0 +1,65 @@
+body{
+padding: 0%;
+margin: 0%;
+ }
+
+ header{
+ font-size: 10px;
+ width: 100%;
+ height: 100vh;
+ background-image: url("/src/b5.jpg");
+ background-size: cover; 
+ background-repeat: no-repeat;
+ }
+
+.headercontent{
+    margin-left: 50px;
+}
+.logoimage{
+    width: 10%;
+}
+.logoimage img{
+    width: 250%;
+}
+.logo1{
+    margin-left: 40px;
+    font-size: 150%;
+}
+.logos{
+    font-size:10px;
+    width: 30%;
+    display: flex;
+
+}
+.bannercontent{
+    font-size: 40px;
+    margin: 0;
+    color:  rgb(4, 4, 49);
+}
+.nav{
+    width: 80%;
+    display: flex;
+    background-color: green;
+    border-radius: 1em;
+    padding: 10px;
+    justify-content: space-around;
+    margin-inline: 125px;
+    height: 50px;
+  margin-top: -2.3em;
+ }
+.navlist:hover{
+    color: rgb(73, 77, 77);
+    font-size: 16px;
+}
+.contact{
+    display: flex;
+    text-align: center;
+    
+}
+.navlist{
+    color: white;
+}
+.navimage img{
+    width: 50px;
+}
+}
